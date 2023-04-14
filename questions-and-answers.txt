@@ -1,0 +1,25 @@
+1: Biggest predictor of CO2 output
+
+The highest correlation value is observed when considering CO2 and GDP at global value.
+
+2: Biggest strides in decreasing CO2 output
+
+part 1
+I wrote a code that gives the maximum, everage and minimum yearly change in CO2 omissions per capita per country.
+In the code this is currently done for China, United States and Italy. Positive means rise, Negative means decline
+
+part 2
+I also include a search for the 5 countries with the best average decline and most extreme decline in the last decade.
+This is actually not that informative since theyt tend to be countries that were not polluting much to begin with
+
+part 3
+
+this part carries out the same search but only on the top 20 polluters, defined as the 20 countries with the highest CO2
+per capita
+
+
+3: Best future price for non-fossil fuel energy
+
+I spent 3 hours looking for usable data, but I could not find any. I assume the purpose is to show I can perform a linear
+regression, so I sed oil data. First, the data are  plotted, then the linear regression is given and then the user can enter
+a date in teh future to get the predicted price
