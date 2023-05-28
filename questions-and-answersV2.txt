@@ -1,0 +1,25 @@
+1: Biggest predictor of CO2 output
+
+- The data are now loaded from the github repository
+- I also added visualization for GDP and GDP per capita including a regression line
+- I am not sure what other data should be used, I am guessing if the point is to show how you can do a correlation matrix
+anything would do, so I used dietary information. I now print  a correlation matrix including direction of the correlation
+p-value and significance. The whole idea is problematic anyway because correlation per se has no significance (pun intended)
+
+I guess the conclusion would be that the secret to lowering CO2 emissions is becoming poor, modulo the problem that poor people
+might choose meat over vegetables since meat is often cheaper
+
+
+2: Biggest strides in decreasing CO2 output
+
+No changes here as I do not think anything was required
+
+
+3: Best future price for non-fossil fuel energy
+
+I now use the data that were provided. They are loaded from the github repository
+
+If data from the country chosen by the user are available, those data are used, otherwise data for WORLD are used.
+first graph plots actual prices, later graph report actual prices and linear regressions for each energy source
+The user can then specify the year for which they are interested in predicting prices and the predicted price is
+calculated. If predicted price is negative it is reported as being virtually 0.
